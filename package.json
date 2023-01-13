@@ -1,0 +1,11 @@
+{
+  "name": "cypress-xpress",
+  "version": "1.0.0",
+  "description": "E2E test project for Mark L",
+  "main": "index.js",
+  "author": "Bruno Teixeira",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.3.0"
+  }
+}

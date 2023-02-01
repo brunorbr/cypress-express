@@ -64,3 +64,16 @@ Cypress.Commands.add('isRequired', (targetMessage) => {
         ).to.eq(text)
     })  
 })
+
+Cypress.Commands.add('performTaskAction', (task, action) => {
+    var button;
+    if(action === 'delete'){
+        button = 'button[class*="ItemDelete"]';
+    } else if (action === 'update'){
+        button = 'button[class*="ItemToggle"]';
+    }
+    cy.contains('p', task.name)
+        .parent()
+        .find(button)
+        .click()
+})

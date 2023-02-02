@@ -6,6 +6,8 @@
   "author": "Bruno Teixeira",
   "license": "MIT",
   "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.35.0",
+    "allure-commandline": "^2.20.1",
     "cypress": "^12.3.0"
   }
 }

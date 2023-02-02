@@ -1,0 +1,14 @@
+{
+    "duplicate" : {
+        "name": "Passar na tua casa com essa minha cara lavada de quem sabe o que dizer",
+        "is_done": false
+    },
+    "delete" : {
+        "name": "Dizer segredos de liquidificador",
+        "is_done": false
+    },
+    "finish" : {
+        "name": "Compensar o crime se voce ta junto",
+        "is_done": false
+    }
+}
